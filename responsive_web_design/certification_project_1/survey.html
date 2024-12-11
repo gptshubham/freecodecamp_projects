@@ -11,125 +11,211 @@
       <p id="description">
         Thank you for taking the time to help us improve the platform
       </p>
-      <form action="" id="survey-form">
-        <label for="name" id="name-label">Name</label>
-        <br />
-        <input
-          type="text"
-          id="name"
-          placeholder="Enter Your Name"
-          name="participant-name"
-          required
-        />
-        <br /><br />
-        <label for="email" id="email-label">Email</label>
-        <br />
-        <input
-          type="email"
-          id="email"
-          placeholder="Enter Email Address"
-          name="email"
-          required
-        />
-        <br /><br />
-        <label for="number" id="number-label">Age (Optional)</label>
-        <br />
-        <input
-          type="number"
-          id="number"
-          min="1"
-          max="120"
-          placeholder="Enter Your Age"
-        />
-        <br /><br />
-        <label for="dropdown"
-          >Which option best describes your current role?</label
-        >
-        <br />
-        <select name="current-role" id="dropdown">
-          <option value="" checked>Select current role</option>
-          <option value="Student">Student</option>
-          <option value="Full Time Job">Full Time Job</option>
-          <option value="Part Time Learner">Part Time Learner</option>
-          <option value="Prefer not to say">Prefer not to say</option>
-          <option value="Other">Other</option>
-        </select>
-        <br /><br />
-        <label>Would you recommend NEXUS+ to a friend?</label>
-        <br /><br />
-        <input
-          type="radio"
-          id="definitely"
-          name="recommend"
-          value="definitely"
-          checked
-        />
-        <label for="definitely">Definitely</label>
-        <br />
-        <input type="radio" id="maybe" name="recommend" value="maybe" />
-        <label for="maybe">Maybe</label>
-        <br />
-        <input type="radio" id="note_sure" name="recommend" value="note_sure" />
-        <label for="note_sure">Not Sure</label>
-        <br /><br />
-        <label for=""
-          >What would you like to see improved? (Check all that apply)</label
-        >
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">User Interface Design</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Content Quality</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Ease of Navigation</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Community Engagement (e.g., Discord, WhatApp)</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Learning Resources (Articles, Tutorials, Videos)</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Project Ideas and Templates</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Mentorship Opportunities</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Career Guidance and Job Opportunities</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for=""
-          >Integration with Tools/Technologies (e.g., GitHub, Figma,
-          APIs)</label
-        >
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Web Development Bootcamps</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Blockchain Learning Resources</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Live Coding Events/Webinars</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Feedback System for Content</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Mobile App Availability</label>
-        <br />
-        <input type="checkbox" id="" />
-        <label for="">Progress Tracking and Certifications</label>
-        <br /><br />
-        <label>Any comments or suggestions?</label>
-        <br />
-        <textarea placeholder="Enter your comments here..."></textarea>
-        <br />
-        <button id="submit">Submit</button>
-      </form>
+      <div class="container">
+        <form action="" id="survey-form">
+          <label for="name" id="name-label">Name</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter Your Name"
+            name="participant-name"
+            required
+          />
+          <br /><br />
+          <label for="email" id="email-label">Email</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter Email Address"
+            name="email"
+            required
+          />
+          <br /><br />
+          <label for="number" id="number-label">Age (Optional)</label>
+          <br />
+          <input
+            type="number"
+            id="number"
+            min="1"
+            max="120"
+            placeholder="Enter Your Age"
+          />
+          <br /><br />
+          <label for="dropdown"
+            >Which option best describes your current role?</label
+          >
+          <br />
+          <select name="current-role" id="dropdown">
+            <option value="" checked>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Part Time Learner">Part Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+          <br /><br />
+          <label>Would you recommend NEXUS+ to a friend?</label>
+          <br /><br />
+          <input
+            type="radio"
+            id="definitely"
+            name="recommend"
+            value="definitely"
+            checked
+          />
+          <label for="definitely">Definitely</label>
+          <br />
+          <input type="radio" id="maybe" name="recommend" value="maybe" />
+          <label for="maybe">Maybe</label>
+          <br />
+          <input
+            type="radio"
+            id="note_sure"
+            name="recommend"
+            value="note_sure"
+          />
+          <label for="note_sure">Not Sure</label>
+          <br /><br />
+          <label for=""
+            >What would you like to see improved? (Check all that apply)</label
+          >
+          <br />
+          <input type="checkbox" id="ui" name="ui" value="ui" />
+          <label for="ui">User Interface Design</label>
+          <br />
+          <input
+            type="checkbox"
+            id="content-quality"
+            name="content-quality"
+            value="Content Quality"
+          />
+          <label for="content-quality">Content Quality</label>
+          <br />
+          <input
+            type="checkbox"
+            id="navigation"
+            name="navigation"
+            value="Ease of Navigation"
+          />
+          <label for="navigation">Ease of Navigation</label>
+          <br />
+          <input
+            type="checkbox"
+            id="community-engagement"
+            name="community-engagement"
+            value="Community Engagement (e.g., Discord, WhatApp)"
+          />
+          <label for="community-engagement"
+            >Community Engagement (e.g., Discord, WhatApp)</label
+          >
+          <br />
+          <input
+            type="checkbox"
+            id="learning-resources"
+            name="learning-resources"
+            value="Learning Resources (Articles, Tutorials, Videos)"
+          />
+          <label for="learning-resources"
+            >Learning Resources (Articles, Tutorials, Videos)</label
+          >
+          <br />
+          <input
+            type="checkbox"
+            id="project-ideas"
+            name="project-ideas"
+            value="Project Ideas"
+          />
+          <label for="project-ideas">Project Ideas</label>
+          <br />
+          <input
+            type="checkbox"
+            id="mentorship-opportunities"
+            name="Mentorship Opportunities"
+            value="mentorship-opportunities"
+          />
+          <label for="mentorship-opportunities">Mentorship Opportunities</label>
+          <br />
+          <input
+            type="checkbox"
+            id="career-guidance"
+            name="career-guidance"
+            value="Career Guidance and Job Opportunities"
+          />
+          <label for="career-guidance"
+            >Career Guidance and Job Opportunities</label
+          >
+          <br />
+          <input
+            type="checkbox"
+            id="tools-technologies"
+            name="tools-technologies"
+            value="Integration with Tools/Technologies (e.g., GitHub, Figma,
+          APIs)"
+          />
+          <label for="tools-technologies"
+            >Integration with Tools/Technologies (e.g., GitHub, Figma,
+            APIs)</label
+          >
+          <br />
+          <input
+            type="checkbox"
+            id="web-development"
+            name="web-development"
+            value="Web Development Bootcamps"
+          />
+          <label for="web-development">Web Development Bootcamps</label>
+          <br />
+          <input
+            type="checkbox"
+            id="blockchain"
+            name="blockchain"
+            value="Blockchain Learning Resources"
+          />
+          <label for="blockchain">Blockchain Learning Resources</label>
+          <br />
+          <input
+            type="checkbox"
+            id="live-events"
+            name="live-events"
+            value="Live Coding Events/Webinars"
+          />
+          <label for="live-events">Live Coding Events/Webinars</label>
+          <br />
+          <input
+            type="checkbox"
+            id="feedback-system"
+            name="feedback-system"
+            value="Feedback System for Content"
+          />
+          <label for="feedback-system">Feedback System for Content</label>
+          <br />
+          <input
+            type="checkbox"
+            id="mobile-app"
+            name="mobile-app"
+            value="Mobile App Availability"
+          />
+          <label for="mobile-app">Mobile App Availability</label>
+          <br />
+          <input
+            type="checkbox"
+            id="progress-tracking"
+            name="progress-tracking"
+            value="Progress Tracking and Certifications"
+          />
+          <label for="progress-tracking"
+            >Progress Tracking and Certifications</label
+          >
+          <br /><br />
+          <label>Any comments or suggestions?</label>
+          <br />
+          <textarea placeholder="Enter your comments here..."></textarea>
+          <br />
+          <button id="submit">Submit</button>
+        </form>
+      </div>
     </main>
   </body>
 </html>
