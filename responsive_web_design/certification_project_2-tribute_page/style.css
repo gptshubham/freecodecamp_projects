@@ -1,0 +1,200 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1;
+  /* text-align: center; */
+  color: #333;
+  margin: 0;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 80vh;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+#title,
+#short-intro,
+#img-caption,
+#wiki-link {
+  text-align: center;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  max-width: 40vw;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+ol {
+  max-width: 40vw;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+#pm-modi {
+  font-style: italic;
+  max-width: 40vw;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+#wiki-link {
+  font-size: small;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  body {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    max-width: 80vw;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.1;
+  }
+
+  ol {
+    max-width: 80vw;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.1;
+  }
+
+  li {
+    margin: 16px 0;
+  }
+
+  #pm-modi {
+    font-style: italic;
+    max-width: 80vw;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+
+  #wiki-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 50vh;
+  }
+
+  ul {
+    max-width: 90vw;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.1;
+  }
+
+  ol {
+    max-width: 90vw;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.1;
+  }
+
+  li {
+    margin: 16px 0;
+  }
+
+  #wiki-link {
+    font-size: 0.8rem;
+  }
+
+  #headline {
+    margin-bottom: 0;
+  }
+
+  #pm-modi {
+    font-style: italic;
+    max-width: 80vw;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+}
+
+a:visited {
+  color: #74638f;
+}
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
